@@ -19,7 +19,7 @@ RUN yum install -y libunwind libicu && \
     mkdir -p ${HOME} && \
     chown -R 1001:0 ${HOME}/ && \
     chown -R 1001:0 /opt/app-root && \
-    curl -sSL -o /tmp/dotnet.tar.gz https://go.microsoft.com/fwlink/?LinkID=809131 && \
+    curl -sSL -o /tmp/dotnet.tar.gz https://go.microsoft.com/fwlink/?LinkID=827529 && \
     mkdir -p /dotnet/ && tar zxf /tmp/dotnet.tar.gz -C /dotnet && \
     ln -s /dotnet/dotnet /usr/local/bin && \
     rm -rf /tmp/dotnet.tar.gz
